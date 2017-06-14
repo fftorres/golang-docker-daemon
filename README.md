@@ -2,6 +2,8 @@
 
 > Docker container built on top of official golang container with docker daemon available
 
+Image is available at [`quay.io/hellofresh/golang-docker-daemon`](https://quay.io/hellofresh/golang-docker-daemon).
+
 ## Usage in Concorse CI
 
 It is important to run task that uses the image in privileged mode with `privileged: true` - this
