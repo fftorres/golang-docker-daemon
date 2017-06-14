@@ -14,5 +14,8 @@ docker run -it --privileged quay.io/hellofresh/golang-docker-daemon:${GOVERSION}
 echo "\`\`\`" >> docker-version.md
 
 if [ "$1" = "push" ]; then
+    # push tag
     docker push quay.io/hellofresh/golang-docker-daemon:${GOVERSION}-${DATE}
+    # push latest
+    docker push quay.io/hellofresh/golang-docker-daemon
 fi
