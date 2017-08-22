@@ -17,5 +17,6 @@ if [ "$1" = "push" ]; then
     # push tag
     docker push quay.io/hellofresh/golang-docker-daemon:${GOVERSION}-${DATE}
     # push latest
-    docker push quay.io/hellofresh/golang-docker-daemon
+    docker tag quay.io/hellofresh/golang-docker-daemon:${GOVERSION}-${DATE} quay.io/hellofresh/golang-docker-daemon:latest
+    docker push quay.io/hellofresh/golang-docker-daemon:latest
 fi
