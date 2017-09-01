@@ -1,4 +1,4 @@
-FROM golang:1.8.3
+FROM golang:1
 
 LABEL maintainer "Vladimir Garvardt <vga@hellofresh.com>"
 
