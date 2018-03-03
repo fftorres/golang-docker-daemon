@@ -1,3 +1,3 @@
 ```
-go version go1.8.3 linux/amd64
+go version go1.10 linux/amd64
 ```
