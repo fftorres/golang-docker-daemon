@@ -1,19 +1,26 @@
 ```
 Client:
- Version:	17.12.0-ce
- API version:	1.35
- Go version:	go1.9.2
- Git commit:	c97c6d6
- Built:	Wed Dec 27 20:03:51 2017
- OS/Arch:	darwin/amd64
+ Version:      17.09.0-ce
+ API version:  1.32
+ Go version:   go1.8.3
+ Git commit:   afdb6d4
+ Built:        Tue Sep 26 22:42:09 2017
+ OS/Arch:      linux/amd64
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+```
+Client:
+ Version:      17.09.0-ce
+ API version:  1.32
+ Go version:   go1.8.3
+ Git commit:   afdb6d4
+ Built:        Tue Sep 26 22:42:09 2017
+ OS/Arch:      linux/amd64
 
 Server:
- Engine:
-  Version:	17.12.0-ce
-  API version:	1.35 (minimum version 1.12)
-  Go version:	go1.9.2
-  Git commit:	c97c6d6
-  Built:	Wed Dec 27 20:12:29 2017
-  OS/Arch:	linux/amd64
-  Experimental:	true
-```
+ Version:      17.09.0-ce
+ API version:  1.32 (minimum version 1.12)
+ Go version:   go1.8.3
+ Git commit:   afdb6d4
+ Built:        Tue Sep 26 22:40:48 2017
+ OS/Arch:      linux/amd64
+ Experimental: false

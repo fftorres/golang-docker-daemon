@@ -10,7 +10,7 @@ docker run -it --privileged quay.io/hellofresh/golang-docker-daemon:${GOVERSION}
 echo "\`\`\`" >> go-version.md
 
 echo "\`\`\`" > docker-version.md
-docker run -it --privileged quay.io/hellofresh/golang-docker-daemon:${GOVERSION}-${DATE} service docker start && sleep 3 && docker version >> docker-version.md
+docker run -it --privileged quay.io/hellofresh/golang-docker-daemon:${GOVERSION}-${DATE} bash -c "service docker start > /dev/null && sleep 3 && docker version" >> docker-version.md
 echo "\`\`\`" >> docker-version.md
 
 if [ "$1" = "push" ]; then
